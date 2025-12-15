@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./images/channel-6.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="timer-container">
+        <h1>Countdown Timer</h1>
+        <div class="input-container">
+            <input type="number" id="hours-input" value="0" min="0" max="23">
+            <label for="hours-input">Hours</label>
+        </div>
+        <div class="input-container">
+            <input type="number" id="minutes-input" value="0" min="0" max="59">
+            <label for="minutes-input">Minutes</label>
+        </div>
+        <div class="input-container">
+            <input type="number" id="seconds-input" value="0" min="0" max="59">
+            <label for="seconds-input">Seconds</label>
+        </div>
+        <div id="timer-display">00:00:00</div>
+        <button id="start-Btn"> Start</button>
+        <button id="reset-Btn">Reset</button>  
+    </div>
+
+    <script src="timerScript.js"></script>
+</body>
+</html>
